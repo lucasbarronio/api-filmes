@@ -1,0 +1,21 @@
+meta {
+  name: EDITAR
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3000/filmes/id
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "titulo": "TITULO",
+      "genero": "GENERO",
+      "duracao": "111",
+      "classificacao": "33",
+      "capa": "URL_CAPA"
+    }
+}

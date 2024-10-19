@@ -1,0 +1,21 @@
+meta {
+  name: CADASTRAR
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:3000/filmes
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "titulo": "TITULO",
+      "genero": "GENERO",
+      "duracao": "111",
+      "classificacao": "33",
+      "capa": "URL_CAPA"
+    }
+}

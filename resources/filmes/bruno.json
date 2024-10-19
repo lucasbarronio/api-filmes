@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "bruno_filmes",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
